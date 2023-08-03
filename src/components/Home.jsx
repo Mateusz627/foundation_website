@@ -9,7 +9,7 @@ import HomeMainSection from "./HomeMainSection.jsx";
 function Home() {
     return (
         <>
-            <Navigation />
+
             <HomeMainSection />
             <HomeThreeColumns />
             <HomeSimpleSteps />

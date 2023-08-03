@@ -1,0 +1,19 @@
+.home-main-section{
+  display: flex;
+  .home-img{
+    width: 50%;
+
+  }
+
+  .home-content{
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .home-text{
+      display: flex;
+      flex-direction: column;
+
+    }
+  }
+}
