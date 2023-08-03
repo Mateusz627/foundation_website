@@ -1,0 +1,43 @@
+@import './settings/_colors.scss';
+
+.wrapper{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+
+.nav-buttons{
+  display: flex;
+  justify-content: end;
+
+  .nav-btn{
+    padding: 10px;
+    border: 1px solid transparent;
+
+    &:hover{
+      border: 1px solid $slate-gray;
+      cursor: pointer;
+    }
+  }
+}
+
+.nav-categories{
+  display: flex;
+  color: $charcoal;
+
+    li{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border: 1px solid transparent;
+      padding: 15px 15px;
+
+      &:hover{
+        cursor: pointer;
+        border: 0.75px solid $slate-gray;
+      }
+    }
+  }
+}

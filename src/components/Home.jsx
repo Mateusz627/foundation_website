@@ -4,8 +4,7 @@ import HomeSimpleSteps from "./HomeSimpleSteps";
 import HomeThreeColumns from "./HomeThreeColumns";
 import Navigation from "./Navigation";
 import HomeContact from "./HomeContact";
-import HomeMainSection from "./HomeMainSection";
-
+import HomeMainSection from "./HomeMainSection.jsx";
 
 function Home() {
     return (
@@ -18,7 +17,7 @@ function Home() {
             <HomeHelp />
             <HomeContact />
         </>
-    );
+    )
 }
 
 export default Home;

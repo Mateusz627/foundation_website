@@ -1,12 +1,13 @@
-import './scss/App.scss'
+import Home from "./components/Home.jsx";
+
 
 function App() {
 
-  return (
-    <>
-
-    </>
-  )
+    return (
+        <>
+            <Home />
+        </>
+    )
 }
 
 export default App
