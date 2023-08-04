@@ -1,0 +1,36 @@
+@import "../scss/settings/_colors.scss";
+
+.main-section{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 350px;
+  background: url("../assets/3-Columns-Background.png");
+
+  .data-item{
+    width: calc(33.33% - 150px);
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+    &__number{
+      display: flex;
+      font-size: 5rem;
+      justify-content: center;
+    }
+
+    &__title{
+
+    }
+
+    &__description{
+
+    }
+  }
+}
