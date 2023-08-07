@@ -8,17 +8,53 @@
   align-items: center;
   align-content: center;
   overflow: hidden;
+  margin-top: 55px;
+
+  .step-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+  }
 
   .step-item{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100vw;
+    height: 325px;
 
     background: $primary-color;
 
     .step-content{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
 
+      img{
+        margin-bottom: 10px;
+      }
+
+      .step-line{
+        width: 70px;
+        height: 0;
+        border: 1px solid #707070;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
     }
+  }
+
+  .step-button{
+    margin-top: 35px;
+    width: 310px;
+    height: 120px;
+    font-size: 1.5rem;
+    color: $slate-gray;
+    border: 1px solid $slate-gray;
+    background: white;
   }
 }
