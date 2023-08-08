@@ -29,10 +29,8 @@ function HomeSimpleSteps() {
                     </div>
                     <div className="step-content">
                         <img src={icon3} alt="loupe"/>
-                        <div className="step-title">
                             <h2>Zdecyduj komu</h2>
                             <h2>chcesz pomóc</h2>
-                        </div>
                         <div className="step-line"></div>
                         <div className="step-text">
                             <p>wybierz zaufane</p>
