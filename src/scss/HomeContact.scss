@@ -1,0 +1,101 @@
+@import "./settings/colors";
+
+.contact {
+  background-image: url("../assets/Background-Contact-Form.jpg");
+  background-position: left -20px bottom -60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 760px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 1;
+  margin-top: 5rem;
+
+  &::before {
+    content: "";
+    display: block;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-size: cover;
+    width: 100vw;
+    height: 760px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+  }
+  &__box {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 140px;
+  }
+  &__title{
+    font-size: 2.375rem;
+    margin-bottom: 1.3rem;
+  }
+}
+.form {
+  margin-top: 70px;
+  &__group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  &__label {
+
+  }
+  &__input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+  &__message {
+    resize: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    width: 390px;
+    height: 100px;
+    margin-bottom: 30px;
+  }
+}
+.main__btn.form__btn {
+  margin-left: 295px;
+}
+
+.footer {
+  width: 100vw;
+  margin-top: 250px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  &__copyrights {
+    position: absolute;
+    text-align: center;
+  }
+  &__social {
+    position: absolute;
+    bottom: 0;
+    right: 135px;
+    display: flex;
+    gap: 15px;
+  }
+}
